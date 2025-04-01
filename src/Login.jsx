@@ -50,6 +50,9 @@ const Login = () => {
 
   return (
     <div className="entry login-page">
+      <div>
+        <h2>Login</h2>
+      </div>
       <form onSubmit={login}>
         <div className="form-fields">
           <input

@@ -11,7 +11,7 @@ const WebcamAttendance = () => {
   const [attendanceResult, setAttendanceResult] = useState(null);
 
   useEffect(() => {
-    const interval = setInterval(captureAndSend, 10000); // Capture every 10 sec
+    const interval = setInterval(captureAndSend, 10000);
     return () => clearInterval(interval);
   }, []);
 
