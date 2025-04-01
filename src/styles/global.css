@@ -1,0 +1,100 @@
+.entry {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.entry form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1rem;
+  border-radius: 20px;
+  height: 60vh;
+  max-height: 500px;
+  box-shadow: 2px 3px 7px 0 cyan;
+}
+/* /////////////////////////// */
+.center {
+  align-self: center;
+}
+
+.role {
+  width: 90%;
+}
+
+.form-fields {
+  margin-bottom: 1rem;
+}
+
+.entry input {
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid cyan;
+  background-color: transparent;
+}
+
+.entry button {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  width: fit-content;
+  align-self: center;
+}
+
+/* Utilities */
+
+input:focus,
+input:hover {
+  outline: none;
+}
+
+.slant {
+  font-size: 0.7rem;
+  font-style: italic;
+  align-self: center;
+}
+
+.hide-show {
+  margin-left: -40px;
+}
+
+.error {
+  color: red;
+  align-self: flex-end;
+  margin: -15px 0 10px;  
+}
+
+.dashboard{
+  background-color: #333;
+}
+
+.dashboard{
+  background-color: #333;
+}
+
+img{
+  border-radius: 100%;
+  /* padding: .5rem; */
+  width: 80px;
+  height: 80px;
+}
+
+.logo{
+  color: cyan;
+  font-size: 2rem;
+  border-radius: 10px;
+  padding: .3rem;
+  text-align: center;
+  background-color: black;
+}
+
+.camCont {
+  display: flex;
+  justify-content: center;
+}
+

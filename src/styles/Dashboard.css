@@ -1,0 +1,63 @@
+.dashboard {
+  padding: 20px;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.subtitle {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.attendance-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.attendance-table th,
+.attendance-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.no-data {
+  font-size: 16px;
+  color: red;
+  margin-top: 10px;
+}
+
+.logout{
+  background-color: red;
+  color: black;
+  align-items: center;
+  padding: .5rem 1rem;
+  border-radius: 20%;
+  position: absolute;
+  left: 40%;
+}
+
+.logout:hover{
+  cursor: pointer;
+  background-color: cyan;
+  color: red;
+}

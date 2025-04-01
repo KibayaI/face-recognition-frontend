@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0.3rem;
+  background-color: rgb(255, 0, 0);
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.sidebar,
+.main {
+  background-color: black
+}
+
+.sidebar ul li {
+  background-color: cyan;
+  margin: 0.5rem;
+  border-radius: 10px;
+  padding: 0.5rem;
+  color: black;
+}
+
+.sidebar ul li:hover{
+  background-color: white;
+  color:black
+}
+
+.sidebar{ 
+  position: relative;
+}
+
+.header {
+  background-color: rgba(255, 255, 255, 0.822);
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.content > div {
+  margin: 0.5rem;
+  background-color: blueviolet;
+  height: 10rem;
+}
+
+.main {
+  margin-inline: 0.3rem;
+}
